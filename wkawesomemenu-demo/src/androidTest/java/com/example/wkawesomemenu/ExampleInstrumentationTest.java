@@ -1,4 +1,4 @@
-package com.wonderkiln.wkawesomemenu;
+package com.example.wkawesomemenu;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;

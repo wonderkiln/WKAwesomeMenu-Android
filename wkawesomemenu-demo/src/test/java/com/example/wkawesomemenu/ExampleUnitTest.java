@@ -1,4 +1,4 @@
-package com.wonderkiln.wkawesomemenu;
+package com.example.wkawesomemenu;
 
 import org.junit.Test;
 

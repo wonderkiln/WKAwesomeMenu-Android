@@ -1,9 +1,10 @@
-package com.wonderkiln.wkawesomemenu;
+package com.example.wkawesomemenu;
 
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
-public class MainActivity extends AppCompatActivity {
+import com.wonderkiln.wkawesomemenu.WKAwesomeMenuActivity;
+
+public class MainActivity extends WKAwesomeMenuActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
