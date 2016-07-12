@@ -8,7 +8,7 @@ import android.support.annotation.ColorInt;
 import android.view.View;
 import android.view.ViewGroup;
 
-public abstract class WKAwesomeMenuActivity extends Activity implements WKAwesomeMenuOptions {
+public class WKAwesomeMenuActivity extends Activity implements WKAwesomeMenuOptions {
 
     private boolean isContentViewSet = false;
 
@@ -84,6 +84,22 @@ public abstract class WKAwesomeMenuActivity extends Activity implements WKAwesom
     @Override
     public float wkMenuGripWidth() {
         return 50f;
+    }
+
+    protected void openMenu() {
+        openMenu(0.2f);
+    }
+
+    protected void openMenu(float duration) {
+
+    }
+
+    protected void closeMenu() {
+        closeMenu(0.2f);
+    }
+
+    protected void closeMenu(float duration) {
+
     }
 
 }
